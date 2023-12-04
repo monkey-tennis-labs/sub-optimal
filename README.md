@@ -9,7 +9,7 @@ A fun game of cyberpunk space spelunking.
 ## Available Commands
 
 | Command         | Description                                                                       |
-|-----------------|-----------------------------------------------------------------------------------|
+| --------------- | --------------------------------------------------------------------------------- |
 | `npm install`   | Install project dependencies                                                      |
 | `npm run watch` | Build project and open web server running project, watching for changes           |
 | `npm run dev`   | Builds project and open web server, but do not watch for changes                  |
@@ -26,8 +26,8 @@ by default).
 
 ## Configuring Rollup
 
-* Edit the file `rollup.config.dev.js` to edit the development build.
-* Edit the file `rollup.config.dist.js` to edit the distribution build.
+- Edit the file `rollup.config.dev.js` to edit the development build.
+- Edit the file `rollup.config.dist.js` to edit the distribution build.
 
 You will find lots of comments inside the rollup config files to help you do this.
 
@@ -36,5 +36,6 @@ based on CPU and local drive speeds. The development config does not minify the 
 does generate source maps. If you do not require these, disable them in the config to speed it up further.
 
 Built with ❤️ using
-* Phaser
-* TypeScript
+
+- Phaser
+- TypeScript
