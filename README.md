@@ -39,3 +39,26 @@ Built with ❤️ using
 
 - Phaser
 - TypeScript
+
+# Temp backlog
+
+- Adding placeholder assets - non-animated for now
+- Basic interactivity
+
+# Temporary Retro
+
+4/12/2023
+
+## Start
+
+- Thinking about tests - we don't want to get into an untestable mess?
+- We need to be pragmatic though. TDD only if we see an opportunity on a complex bit of behaviour
+
+## Stop
+
+- Squashing commits made on the mob branch
+
+## Continue
+
+- Mobbing! Still works very well, 10 minute
+- Use timer as a guide, break at a sensible point
