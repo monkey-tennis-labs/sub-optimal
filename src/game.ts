@@ -14,10 +14,22 @@ export default class Game extends Phaser.Scene {
   }
 
   create() {
+    this.anims.create({
+      key: "diver-swim",
+      frames: this.anims.generateFrameNames("diver", {
+        start: 0,
+        end: 6,
+        prefix: "diver-swim-",
+        suffix: ".png",
+      }),
+      repeat: -1,
+      frameRate: 10,
+    });
+
     const width = this.scale.width;
     const height = this.scale.height;
 
-    this.add.sprite(width * 0.5, height * 0.5, "diver");
+    this.add.sprite(width * 0.5, height * 0.5, "diver").play("diver-swim");
   }
 
   update() {}
