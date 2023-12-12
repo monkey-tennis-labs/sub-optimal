@@ -1,0 +1,167 @@
+{
+	"textures": [
+		{
+			"image": "diver-swim.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 53,
+				"h": 127
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "diver-swim-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 28,
+						"w": 51,
+						"h": 20
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 51,
+						"h": 20
+					}
+				},
+				{
+					"filename": "diver-swim-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 28,
+						"w": 51,
+						"h": 20
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 51,
+						"h": 20
+					}
+				},
+				{
+					"filename": "diver-swim-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 28,
+						"w": 50,
+						"h": 27
+					},
+					"frame": {
+						"x": 1,
+						"y": 23,
+						"w": 50,
+						"h": 27
+					}
+				},
+				{
+					"filename": "diver-swim-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 28,
+						"w": 50,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 52,
+						"w": 50,
+						"h": 22
+					}
+				},
+				{
+					"filename": "diver-swim-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 28,
+						"w": 50,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 76,
+						"w": 50,
+						"h": 22
+					}
+				},
+				{
+					"filename": "diver-swim-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 28,
+						"w": 50,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 76,
+						"w": 50,
+						"h": 22
+					}
+				},
+				{
+					"filename": "diver-swim-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 28,
+						"w": 49,
+						"h": 26
+					},
+					"frame": {
+						"x": 1,
+						"y": 100,
+						"w": 49,
+						"h": 26
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bd6f885c85278f9b9d3e704ca3accbfd:2fe4f644f57d325e547787b456dc8b14:56372ac833deb29c09885ea912bb7df8$"
+	}
+}
