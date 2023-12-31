@@ -41,7 +41,12 @@ export default class Game extends Phaser.Scene {
   update() {
     if (this.cursors.space?.isDown) {
       this.diver.setVelocityY(-60);
+      this.diver.angle > -90 ? this.diver.angle-- : (this.diver.angle = -90);
+    } else {
+      this.diver.angle < 90 ? this.diver.angle++ : (this.diver.angle = 90);
     }
+
+    console.log(this.diver.angle);
   }
 }
 
@@ -54,7 +59,7 @@ const config = {
     default: "arcade",
     arcade: {
       gravity: {
-        y: 200,
+        y: 100,
       },
     },
   },
