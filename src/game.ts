@@ -1,6 +1,9 @@
 import * as Phaser from "phaser";
 
 export default class Game extends Phaser.Scene {
+  private cursors: Phaser.Types.Input.Keyboard.CursorKeys;
+  private diver: Phaser.Physics.Arcade.Sprite;
+
   constructor() {
     super("game");
   }
@@ -11,6 +14,7 @@ export default class Game extends Phaser.Scene {
       "assets/sprites/hero/diver-swim.png",
       "assets/sprites/hero/diver-swim.json",
     );
+    this.cursors = this.input.keyboard.createCursorKeys();
   }
 
   create() {
@@ -29,12 +33,16 @@ export default class Game extends Phaser.Scene {
     const width = this.scale.width;
     const height = this.scale.height;
 
-    const diver = this.physics.add
+    this.diver = this.physics.add
       .sprite(width * 0.5, height * 0.5, "diver")
       .play("diver-swim");
   }
 
-  update() {}
+  update() {
+    if (this.cursors.space?.isDown) {
+      this.diver.setVelocityY(-60);
+    }
+  }
 }
 
 // Default values - need to be tweaked
