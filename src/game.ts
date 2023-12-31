@@ -29,7 +29,9 @@ export default class Game extends Phaser.Scene {
     const width = this.scale.width;
     const height = this.scale.height;
 
-    this.add.sprite(width * 0.5, height * 0.5, "diver").play("diver-swim");
+    const diver = this.physics.add
+      .sprite(width * 0.5, height * 0.5, "diver")
+      .play("diver-swim");
   }
 
   update() {}
@@ -40,6 +42,14 @@ const config = {
   type: Phaser.AUTO,
   width: 600,
   height: 800,
+  physics: {
+    default: "arcade",
+    arcade: {
+      gravity: {
+        y: 200,
+      },
+    },
+  },
   backgroundColor: "#125555",
   scene: Game,
 };
