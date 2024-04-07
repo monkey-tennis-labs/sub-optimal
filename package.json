@@ -25,9 +25,9 @@
     "lint-staged": "^15.2.2",
     "phaser": "^3.80.1",
     "prettier": "^3.2.5",
-    "rollup": "^4.13.2",
+    "rollup": "^4.14.1",
     "rollup-plugin-serve": "^3.0.0",
-    "typescript": "^5.4.3",
+    "typescript": "^5.4.4",
     "typescript-eslint": "^7.5.0"
   }
 }
