@@ -28,6 +28,6 @@
     "rollup": "^4.19.2",
     "rollup-plugin-serve": "^3.0.0",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^7.17.0"
+    "typescript-eslint": "^8.0.0"
   }
 }
